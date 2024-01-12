@@ -5,7 +5,7 @@ const getIndexContent=(max)=>{
   return Math.floor(Math.random()*(max))
 }
 export default function Header() {
-  console.log(reactiveContent.length)
+
   const getIndex=reactiveContent[getIndexContent(reactiveContent.length)]
   return (
     <header>
