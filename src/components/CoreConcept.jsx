@@ -1,11 +1,11 @@
-export default function Concepts({image,
+export default function Concepts({ image,
     title,
-    description}){
-return (
-<li>
-<img src={image}/>
-<h3>{title}</h3>
-<p>{description}</p>
-</li>
-)
+    description }) {
+    return (
+        <li>
+            <img src={image} />
+            <h3>{title}</h3>
+            <p>{description}</p>
+        </li>
+    )
 }
